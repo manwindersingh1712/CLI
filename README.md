@@ -33,3 +33,5 @@ To add custom page size, use:
 
 To add custom address and page size, use:
 - ```blackops -a "YOUR ADDRESS" --pg x``` ( address: "YOUR ADDRESS" , pageSize: x )
+
+You will see the Csv files in the ``` files ``` folder
