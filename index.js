@@ -9,7 +9,8 @@ const initaiteCli = async () => {
 	const { address, pageSize } = flags;
 
 	console.log("Welcome to Pricelab's CLI");
-	new PricelabCli({ address, pageSize }).init();
+	const cliInstance = new PricelabCli({ address, pageSize });
+	cliInstance.init();
 };
 
 initaiteCli();

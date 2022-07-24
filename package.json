@@ -4,7 +4,6 @@
 	"version": "0.0.1",
 	"license": "UNLICENSED",
 	"bin": {
-		"pricelabs-cli": "index.js",
 		"blackops": "index.js"
 	},
 	"author": {
