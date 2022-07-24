@@ -1,0 +1,40 @@
+{
+	"name": "pricelabs-cli",
+	"description": "Get csv for listings of vrbo",
+	"version": "0.0.1",
+	"license": "UNLICENSED",
+	"bin": {
+		"pricelabs-cli": "index.js",
+		"blackops": "index.js"
+	},
+	"author": {
+		"name": "Manwinder Singh",
+		"email": "manwindersingh1712@gmail.com",
+		"url": "https://manwindersingh1712.github.io/portfolio.os/"
+	},
+	"keywords": [
+		"pricelabs-cli",
+		"Manwinder Singh"
+	],
+	"files": [
+		"index.js",
+		"utils"
+	],
+	"scripts": {
+		"format": "prettier --write \"./**/*.{js,json}\""
+	},
+	"dependencies": {
+		"axios": "^0.27.2",
+		"cli-handle-unhandled": "^1.1.1",
+		"cli-meow-help": "^3.1.0",
+		"figlet": "^1.5.2",
+		"i": "^0.3.7",
+		"meow": "^9.0.0",
+		"moment": "^2.29.4",
+		"node-xlsx": "^0.21.0",
+		"npm": "^8.15.0"
+	},
+	"devDependencies": {
+		"prettier": "^2.7.1"
+	}
+}
