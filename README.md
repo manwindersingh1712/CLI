@@ -15,18 +15,19 @@ Clone the repository and follow the steps:
 git clone git@github.com:manwindersingh1712/CLI.git
 cd CLI
 npm install or yarn add
+npm link
 ```
 
 ## Usage
 
 To use this cli you can run this script:
-- blackops ( default address: "chicago-illinois-united-states-of-america", pageSize: 50 )
+- ```blackops``` ( default address: "chicago-illinois-united-states-of-america", pageSize: 50 )
 
 To add custom address, use:
-- blackops -a "YOUR ADDRESS" ( address: "YOUR ADDRESS" , pageSize: 50 )
+- ```blackops -a "YOUR ADDRESS" ```  ( address: "YOUR ADDRESS" , pageSize: 50 )
 
 To add custom page size, use:
-- blackops --pg x ( address: "chicago-illinois-united-states-of-america" , pageSize: x )
+- ```blackops --pg x ```  ( address: "chicago-illinois-united-states-of-america" , pageSize: x )
 
 To add custom address and page size, use:
-- blackops -a "YOUR ADDRESS" --pg x ( address: "YOUR ADDRESS" , pageSize: x )
+- ```blackops -a "YOUR ADDRESS" --pg x``` ( address: "YOUR ADDRESS" , pageSize: x )
