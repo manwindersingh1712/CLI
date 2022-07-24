@@ -20,7 +20,9 @@ npm link
 
 ## Usage
 
-To use this cli you can run this script:
+Open the terminal for root repo and run the following commands:
+
+To use this default script:
 - ```blackops``` ( default address: "chicago-illinois-united-states-of-america", pageSize: 50 )
 
 To add custom address, use:
