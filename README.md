@@ -20,7 +20,9 @@ npm link
 
 ## Usage
 
-To use this cli you can run this script:
+Open the terminal for root repo and run the following commands:
+
+To use this default script:
 - ```blackops``` ( default address: "chicago-illinois-united-states-of-america", pageSize: 50 )
 
 To add custom address, use:
@@ -31,3 +33,5 @@ To add custom page size, use:
 
 To add custom address and page size, use:
 - ```blackops -a "YOUR ADDRESS" --pg x``` ( address: "YOUR ADDRESS" , pageSize: x )
+
+You will see the Csv files in the ``` files ``` folder
