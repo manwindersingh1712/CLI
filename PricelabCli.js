@@ -13,7 +13,7 @@ class PricelabCli {
 
 	init = async () => {
 		const results = await this.getListings();
-		const listingData = await this.filterListings(results);
+		const listingData = this.filterListings(results);
 		this.exportToCsv(listingData);
 	};
 
